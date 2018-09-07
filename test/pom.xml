@@ -7,7 +7,10 @@
   <groupId>cap.ljh</groupId>
   <artifactId>cap.ljh</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>war</packaging>
+    <modules>
+        <module>../struts1</module>
+    </modules>
+    <packaging>pom</packaging>
 
   <name>cap.ljh Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
