@@ -9,6 +9,7 @@
   <version>1.0-SNAPSHOT</version>
     <modules>
         <module>../struts1</module>
+        <module>../struts3</module>
     </modules>
     <packaging>pom</packaging>
 

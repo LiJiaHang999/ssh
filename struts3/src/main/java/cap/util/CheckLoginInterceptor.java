@@ -11,7 +11,7 @@ import java.util.Map;
 public class CheckLoginInterceptor extends AbstractInterceptor {
     @Override
     public String intercept(ActionInvocation actionInvocation) throws Exception {
-        System.out.println("开始拦截");
+        System.out.println("开始拦截器拦截");
         Object o = actionInvocation.getAction();
         if (o instanceof LoginAction) {
             System.out.println("登录action不需要拦截");
@@ -23,7 +23,7 @@ public class CheckLoginInterceptor extends AbstractInterceptor {
             System.out.println("已经登录。不需要拦截");
             return actionInvocation.invoke();
         } else {
-            System.out.println("你没有登录。正在跳转到登录页面");
+            System.out.println("你还没有登录。跳转到登录页面");
             return Action.LOGIN;
         }
 

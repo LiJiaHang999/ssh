@@ -5,7 +5,7 @@
 <struts>
     <constant name="struts.i18n.encoding" value="utf-8"></constant>
     <package name="default" namespace="/" extends="login">
-        <action name="login" class="cap.action.TimerAction" method="login">
+        <action name="count" class="cap.action.TimerAction" method="count">
 
             <result name="success">/result.jsp</result>
         </action>
