@@ -13,8 +13,6 @@
             <result name="success">/result.jsp</result>
             <result name="error">/error.jsp</result>
         </action>
-
-
     </package>
 
 

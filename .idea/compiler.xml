@@ -8,12 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="struts2" />
         <module name="struts3" />
+        <module name="struts4" />
+        <module name="struts5" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="struts1" target="1.7" />
       <module name="struts2" target="1.7" />
       <module name="struts3" target="1.7" />
+      <module name="struts4" target="1.7" />
+      <module name="struts5" target="1.7" />
       <module name="test" target="1.7" />
     </bytecodeTargetLevel>
   </component>
